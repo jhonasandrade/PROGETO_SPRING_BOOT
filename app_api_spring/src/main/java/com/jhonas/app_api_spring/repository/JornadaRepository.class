@@ -1,0 +1,9 @@
+package com.jhonas.app_api_spring.repository;
+
+import com.jhonas.app_api_spring.model.JornadaTrabalho;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface JornadaRepository extends JpaRepository<JornadaTrabalho, Long> {
+}
